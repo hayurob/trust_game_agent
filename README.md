@@ -1,2 +1,2 @@
 # trust_game_agent
-Script that interacts with participants during the Trust Game.
+This script interacts with participants during a trust game. It uses real participant data from King-Casas et al (2005), where participants interacted with other participants. Using this data, the agent.m script takes both the participant's input and the history of the agent and participant's interactions in the current task and finds the closest match to the real participant dataset from King-Casas et al (2005). Then, the script chooses the amount from the real participant dataset that most closely matches the past interactions of the current task and sends it back to the participant. This script then repeats this cycle for 10 trials total.
